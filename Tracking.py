@@ -62,10 +62,7 @@ elif choice == "Webcam":
 
     while True:
         ret, frame = cam.read()
-        if not ret:
-            st.error("Failed to capture frame from camera")
-            st.info("Please turn off the other app that is using the camera and restart app")
-            break
+       
         image, name, id = recognize(frame, TOLERANCE)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         FRAME_WINDOW.image(image)
