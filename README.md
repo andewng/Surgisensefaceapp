@@ -22,3 +22,4 @@ Github repository for DSCP face recognition app on streamlit
 - utils.py: contains the functions utilized by the app.
 - config.yaml: contains the configuration for the app such as path of dataset dir and prompt messages.
 - requirements.txt: contains the dependencies for the app.
+- packages.txt: contains the packages for the app used to deploy on Streamlit Cloud.
