@@ -1,4 +1,3 @@
-requirements for Streamlit face recognition app
 
 opencv-python
 cmake
