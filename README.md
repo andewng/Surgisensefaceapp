@@ -1,4 +1,4 @@
-# faceidapp
+# FaceApp
 Github repository for DSCP SurgiSense face recognition app on streamlit
 ## Features
 <hr>
