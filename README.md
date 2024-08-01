@@ -1,5 +1,5 @@
 # faceidapp
-Github repository for DSCP face recognition app on streamlit
+Github repository for DSCP SurgiSense face recognition app on streamlit
 ## Features
 <hr>
 - Face detection & recognition
@@ -11,15 +11,20 @@ Github repository for DSCP face recognition app on streamlit
 <hr>
 - Python 3.9
 - Streamlit 1.22.0
+- dlib
 - face_recognition module
 <hr>
 
 ## Description
 <hr>
+SurgiSense Face recognition & verification app, created for healthcare professionals & personnel, Healthcare professionals can utilise the face verification app locally, Users can log in with the Face Verification App and access main SurgiSense platform to access services such as risk calculator system and WIX platform. 
+
+How the Verification Works:
+If user is in the healthcare personnel database, The user will be able to verify themselves through the App, users will have to stay still for 3 seconds to complete the verification process, after this, users will have access to the main SurgiSense streamlit platform
+
 - dataset: contains images of people to be recognised, file format: jpg
-- pages: contains the code for each page of the app. If you want to add more pages, you can create a new file which format is Order_Icon_Pagename in this folder, or just no-icon page with format Order_Pagename
-- Tracking.py: Home page of the app, using for tracking real-time using webcam and picture.
+- FaceApp.py: Face Recognition & Verification App 
 - utils.py: contains the functions utilized by the app.
-- config.yaml: contains the configuration for the app such as path of dataset dir and prompt messages.
+- config.yaml: contains the configuration for the app such as path of dataset dir and messages in the Face Recognition App
 - requirements.txt: contains the dependencies for the app.
 - packages.txt: contains the packages for the app used to deploy on Streamlit Cloud.
