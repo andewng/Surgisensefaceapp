@@ -4,5 +4,5 @@ PATH:
   PKL_PATH: 'dataset/database.pkl'
 
 INFO:
-  PICTURE_PROMPT: 'This app recognizes faces in a live video stream. To use it, simply press start and allow access to your webcam.'
-  WEBCAM_PROMPT: 'This app recognizes faces in a live video stream. To use it, simply press start and allow access to your webcam.'
+  PICTURE_PROMPT: 'This is a Facial Recognition System made for Healthcare Personnel. Please use the Facial Verification App to log in to the SurgiSense Platform.'
+  WEBCAM_PROMPT: 'This is a Facial Recognition System made for Healthcare Personnel. Please use the Facial Verification App to log in to the SurgiSense Platform.'
